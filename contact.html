@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Get Go Auto Sales & Repair: Контакты</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Emblema+One|Lora&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+    <meta name="description" content="Свяжитесь с Get Go Auto Sales & Repair для получения дополнительной информации о продаже и ремонте автомобилей. Мы находимся в Минске, Беларусь.">
+    <meta name="keywords" content="Get Go Auto, контакты, продажа автомобилей, ремонт автомобилей, Минске, Беларусь">
+
+    <!-- Подключение Bootstrap через CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <div id="wrapper">
+
+        <header>
+            <h1>Get Go Auto</h1>
+            <h3>Продажа и ремонт автомобилей</h3>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>  
+                <li><a href="about.html">О нас</a></li> 
+                <li><a href="service.html">Услуги</a></li> 
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+
+        <!-- Используйте основной раздел для добавления основного контента на веб-страницу -->
+        <main>
+
+            <div id="contact" class="mb-4">
+                <h2>Вы можете связаться с нами по:</h2>
+                <p class="tel-link round mobile"><a href="tel:0000000000">(000) 000-0000</a></p>
+                <p class="tab-desk">(000) 000-0000</p>
+                <p>Email: <a href="mailto:shuckiy73@yandex.ru" class="link">shuckiy73@yandex.ru</a></p>
+                <p>Адрес: <a href="https://maps.app.goo.gl/PgvcTRqdPwi5aJfR6" target="_blank" class="link">Минск,пр-кт. Ленина, 10</a></p>
+            </div>
+
+            <div id="form" class="mb-4">
+                <h2>Заполните форму ниже, и мы свяжемся с вами в ближайшее время.</h2>
+                <form class="needs-validation" novalidate><!--start form-->
+
+                    <fieldset class="mb-3">
+                        <legend>Контактная информация</legend>
+                        
+                        <div class="form-group">
+                            <label for="fName">Имя:</label>
+                            <input type="text" class="form-control" name="fName" id="fName" required>
+                            <div class="invalid-feedback">
+                                Пожалуйста, введите ваше имя.
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="lName">Фамилия:</label>
+                            <input type="text" class="form-control" name="lName" id="lName" required>
+                            <div class="invalid-feedback">
+                                Пожалуйста, введите вашу фамилию.
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" name="email" id="email" required>
+                            <div class="invalid-feedback">
+                                Пожалуйста, введите корректный email.
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Телефон:</label>
+                            <input type="tel" class="form-control" id="phone" name="phone" required>
+                            <div class="invalid-feedback">
+                                Пожалуйста, введите ваш номер телефона.
+                            </div>
+                        </div>
+
+                    </fieldset>
+
+                    <fieldset class="mb-3">
+                        <legend>Запрос на услугу</legend>
+                        <p>Я хотел бы получить больше информации о:</p>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" name="info" id="oil" value="Замена масла">
+                            <label class="form-check-label" for="oil">Замена масла</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" name="info" id="tire" value="Смена шин">
+                            <label class="form-check-label" for="tire">Смена шин</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" name="info" id="break" value="Замена тормозов">
+                            <label class="form-check-label" for="break">Замена тормозов</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" name="info" id="other" value="Другое">
+                            <label class="form-check-label" for="other">Другое, пожалуйста, укажите ниже</label>
+                        </div>
+                        <div class="form-group">
+                            <label for="questions">Ваши вопросы:</label>
+                            <textarea class="form-control" id="questions" name="questions" rows="5" cols="35"></textarea>
+                        </div>
+                    </fieldset>
+                    
+                    <button type="submit" class="btn btn-primary">Отправить</button>
+                    <button type="reset" class="btn btn-secondary">Сбросить</button>
+                
+                </form>
+            </div>
+
+        </main>
+
+        <footer>
+            <p>&copy; Copyright 2024. Все права защищены.</p>
+            <p><a href="mailto:shuckiy73@yandex.ru">shuckiy73@yandex.ru</a></p>
+        </footer>
+        
+    </div>
+
+    <!-- Подключение скриптов Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        // Пример валидации формы с использованием Bootstrap
+        (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+                var forms = document.getElementsByClassName('needs-validation');
+                var validation = Array.prototype.filter.call(forms, function(form) {
+                    form.addEventListener('submit', function(event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+	
+</body>
+</html>
